@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Agrupacion</title>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Tags de Agrupacion </h1>
+
+            <!-- blockquote bloque de cita  -->
+            <blockquote cite="https://es.wikipedia.org/wiki/HTML">
+                <p>HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcas de hipertexto’), 
+                    hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar 
+                    que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes 
+                    versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido 
+                    de una página web, como texto, imágenes, videos, juegos, entre otros. 
+                </p>
+
+            </blockquote>
+            
+            <!-- div grupo generico -->
+            <div style="background-color: gray;">
+                <p>estoy dentro del div </p>
+                <p>otro parrafo</p>
+            </div>
+
+            <!-- Lista de definiciones-->
+            <dl>
+                <dt>Tabla</dt>
+                <dd>Pieza de madera generalmente mide 0.30 mts.</dd>
+                <dd>Es una estructura compuesta de registros
+                    y campos
+                </dd>
+
+                <dt>Llave Principal</dt>
+                <dd>Es un campo que identifica un 
+                    registro en una tabla </dd>
+            </dl>
+
+            <hr>
+            <dl>
+                <dt>¿Como subo un video?</dt>
+                <dd>Para subir un video debes..</dd>
+            
+                <dt>¿Que tipos de Formato de video soporta el sitio?</dt>
+                <dd> El sitio soporta mp4,mvw,mov.</dd>
+            </dl>
+            <hr/>
+            <!-- figure  -->
+            <figure style="border: 1px solid black;">
+                <img src="https://c8.alamy.com/compes/kxnrbd/chelsea-londres-reino-unido-10-enero-2018-en-la-pantalla-del-logotipo-de-chelsea-fc-antes-del-partido-con-el-arsenal-en-el-carabao-taza-cerca-del-estadio-stamford-bridge-credito-motofoto-alamy-live-news-kxnrbd.jpg" alt="Logo Chealse">
+                <figcaption>Logo Oficial del Chealse </figcaption> 
+
+            </figure>
+
+            <!-- Regla Horizontal -->
+            <hr>
+            <!-- Lista ordenada -->
+            <ol type="A">
+                <li>Alemania</li>
+                <li>España</li>
+                <li>Brazil</li>
+                <li>Mexico</li>
+            </ol>
+
+            <!-- Lista desordenada -->
+            <ul>
+                <li>LTI</li>
+                <li>LA</li>
+                <li>CP</li>
+                <li>LNI</li>
+            </ul>
+
+            <ul>
+                <li>LTI
+                    <ol>
+                        <li>Maria</li>
+                        <li>Ricardo</li>
+                    </ol>
+                </li>
+               
+                <li>LA
+                    <ol>
+                        <li>Ruben</li>
+                        <li>Daniel</li>
+                    </ol>
+                </li>
+                <li>CP
+                    <ol>
+                        <li>Mario</li>
+                        <li>Hugo</li>
+                    </ol>
+                </li>
+                <li>LNI
+                    <ol>
+                        <li>Sergio</li>
+                        <li>Juan</li>
+                    </ol>
+                </li>
+            </ul>
+
+            <!-- parrafo -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat consequatur commodi sequi non dolore perspiciatis! Omnis corrupti veniam id repellendus!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse tempore architecto cupiditate dolores voluptate corporis ducimus distinctio, enim harum rerum explicabo perferendis. Saepe praesentium sed explicabo natus impedit labore!</p>
+
+            <p style="background-color: aqua;">soy otro parrafo</p>
+            <pre>Hola                  hasta luego</pre>
+            <pre>──────────────────▒
+                ─────────────────░█
+                ────────────────███
+                ───────────────██ღ█
+                ──────────────██ღ▒█──────▒█
+                ─────────────██ღ░▒█───────██
+                ─────────────█ღ░░ღ█──────█ღ▒█
+                ────────────█▒ღ░▒ღ░█───██░ღღ█
+                ───────────░█ღ▒░░▒ღ░████ღღღ█
+                ───░───────█▒ღ▒░░░▒ღღღ░ღღღ██─────░█
+                ───▓█─────░█ღ▒░░░░░░░▒░ღღ██─────▓█░
+                ───██─────█▒ღ░░░░░░░░░░ღ█────▓▓██
+                ───██────██ღ▒░░░░░░░░░ღ██─░██ღ▒█
+                ──██ღ█──██ღ░▒░░░░░░░░░░ღ▓██▒ღღ█
+                ──█ღღ▓██▓ღ░░░▒░░░░░░░░▒░ღღღ░░▓█
+                ─██ღ▒▒ღღ░░ღღღღ░░▒░░░░ ღღღღ░░ღღღ██
+                ─█ღ▒ღღ█████████ღღ▒░ღ██████████ღ▒█░
+                ██ღღ▒████████████ღღ████████████░ღ█▒
+                █░ღღ████████████████████████████ღღ█
+                █▒ღ██████████████████████████████ღ█
+                ██ღღ████████████████████████████ღ██
+                ─██ღღ██████████████████████████ღ██
+                ──░██ღღ██████████████████████ღღ██
+                ────▓██ღ▒██████████████████▒ღ██
+                ───░──░███ღ▒████████████▒ღ███
+                ────░░───▒██ღღ████████▒ღ██
+                ───────────▒██ღ██████ღ██
+                ─────────────██ღ████ღ█
+                ───────────────█ღ██ღ█
+                ────────────────█ღღ█
+                ────────────────█ღ█░
+                ─────────────────██░
+                </pre>
+        
+        
+        </article>
+    </main>
+</body>
+</html>
