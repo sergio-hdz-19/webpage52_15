@@ -48,18 +48,97 @@
 
                     <div>
                         <label for="correo">Correo:</label>
-                        <input type="email" name="correo" id="correo">                    </div>
+                        <input type="email" name="correo" id="correo">                    
+                    </div>
 
-                        <div>
-                            <label for="foto">Foto</label>
-                            <input type="file" name="foto" id="foto">
-                        </div>
+                    <div>
+                        <label for="foto">Foto</label>
+                        <input type="file" name="foto" id="foto">
+                    </div>
                 </fieldset>
 
                 <br>
 
                 <fieldset>
                     <legend>Datos trabajo</legend>
+                    <!-- lista desplegable (combobox) -->
+                    <div>
+                        <label for="carreras">Carrera</label>
+                        <select name="carreras" id="carreras">
+                            <option value="2">LTI</option>
+                            <option value="4">LA</option>
+                            <option value="7">CP</option>
+                            <option value="9">LNI</option>
+                        </select>
+                    </div>
+                    <!-- lista de seleccion multiple -->
+                    <div>
+                        <label for="carrerasSelM">Carreras</label>
+                        <select name="carrerasSelM" id="carrerasSelM" multiple>
+                            <option value="2">LTI</option>
+                            <option value="">LA</option>
+                            <option value="">CP</option>
+                            <option value="">LNI</option>
+                        </select>
+                    </div>
+
+                    <!-- lista con agrupacion -->
+                    <div>
+                        <label for="carrerasGpo">Carreras</label>
+                        <select name="carrerasGpo" id="carrerasGpo">
+                            <optgroup label="Profesionales">
+                                <option value="2">LTI</option>
+                                <option value="4">LA</option>
+                                <option value="7">CP</option>
+                                <option value="9">LNI</option>
+                            </optgroup>
+
+                            <optgroup label="Tecnicas">
+                                <option value="12">Programacion Web</option>
+                            </optgroup>
+
+                        </select>
+                    </div>
+
+                    <!-- data list element -->
+                    <div>
+                        <label for="lenguaje">Lenguaje </label>
+                        <input type="text" name="lenguaje" id="lenguaje" list="lenguajes">
+                        <datalist id="lenguajes">
+                            <option value="python">
+                            <option value="c">
+                            <option value="c++">
+                            <option value="c#">
+                            <option value="java">       
+                        </datalist>
+                    </div>
+
+                    <div>
+                        <label for="comentarios">Comentarios</label>
+                        <textarea name="comentarios" id="comentarios" cols="50" rows="100"></textarea>
+                    </div>
+
+                    <!-- radio button -->
+
+                    <div>
+                        <label for="tigres">Tigres</label>
+                        <input type="radio" name="equipo" id="tigres">
+                        <label for="rayados">Rayados</label>
+                        <input type="radio" name="equipo" id="rayados">
+                        <label for="america">America</label>
+                        <input type="radio" name="equipo" id="america">
+                    </div>
+
+                    <div>
+                        <label for="helado">Helado</label>
+                        <input type="radio" name="postre" id="helado">
+                        <label for="pay">Pay</label>
+                        <input type="radio" name="postre" id="pay">
+                        <label for="dulce">Dulce</label>
+                        <input type="radio" name="postre" id="dulce">
+                    </div>
+                    
+                    <input type="submit" value="Ingresar">
                 </fieldset>
             </form>
 
